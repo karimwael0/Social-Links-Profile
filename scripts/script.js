@@ -53,3 +53,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+/*
+const  comingSoon () => {document.querySelector('.link.website').addEventListener('hover', () => {
+  document.querySelector('.link.website').innerHTML = `Coming Soon!`;
+});
+}
+
+*/
+
+var btn = document.querySelector("button");
+
+btn.addEventListener("mouseover", function() {
+  this.textContent = "Coming soon!";
+})
+btn.addEventListener("mouseout", function() {
+  this.innerHTML = '<span class="iconify" data-icon="bi:globe"></span>' + " My Website";
+})

@@ -98,6 +98,10 @@ body {
   background-color: #252b42;
 }
 
+.link.website {
+  border: none
+}
+
 .link.linkedin {
   background-color: #2d68f0;
 }
